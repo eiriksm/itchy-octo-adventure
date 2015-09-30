@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Drupalcon 2015</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-markdown data-background="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif">
+					# Drupalcon Barcelona 2015
+				</section>
+				<section>
+					<section data-markdown>
+						# Tuesday sessions
+					</section>
+					<section data-markdown>
+						# "Driesnote"
+
+						Keynote by Dries Buytaert
+					</section>
+					<section data-markdown>
+						# Configuration Deployment Best Practices in Drupal 8
+					</section>
+					<section data-markdown>
+						# Symfony for Drupal developers
+					</section>
+					<section data-markdown>
+						# Docker powered team and deployment
+					</section>
+					<section data-markdown>
+						# Headful Drupal
+					</section>
+					<section data-markdown>
+						# Docker in the DrupalCI test infrastructure
+					</section>
+					<!-- Put this in to scare ¯yvind -->
+					<section data-markdown>
+						# Coding with Rules for Drupal 8
+					</section>
+					<section data-markdown>
+						# Composer and Drupal 8
+					</section>
+					<section data-markdown>
+						# Caching at the Edge: CDNs for everyone
+					</section>
+					<section data-markdown>
+						# PhpStorm for Drupal Development
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						# Wednesday sessions
+					</section>
+					<section data-markdown>
+						# Keynote by Nathalie Nahai
+					</section>
+					<section data-markdown>
+						# Behat+Mink+PhantomJS = Test ALL THE THINGS!
+					</section>
+					<section data-markdown>
+						# Pull requests are coming to Drupal.org
+					</section>
+					<section data-markdown>
+						# Entity storage, the Drupal 8 way
+					</section>
+					<section data-markdown>
+						# Linked Data 101: The Non-Terrifying Intro to Semantic Content
+					</section>
+					<section data-markdown>
+						# Making Drupal fly - The fastest Drupal ever is here!
+					</section>
+					<section data-markdown>
+						# Decoupling Drupal modules into PHP libraries
+					</section>
+					<section data-markdown>
+						# Configuration management in Drupal 8
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						# Thursday sessions
+					</section>
+					<section data-markdown>
+						# Community Keynotes by David Rozas and Mike Bell
+					</section>
+					<section data-markdown>
+						# How Drupal 8 builds your pages?
+					</section>
+					<section data-markdown>
+						# Making Drupal a better out-of-the-box product:
+						### Report on usability testing results and how we can make 8.1.x+ shine
+					</section>
+					<section data-markdown>
+						# What we learned from building an (extensible) distribution
+					</section>
+					<section data-markdown>
+						# The wonderland of HTTP in PHP
+					</section>
+					<section data-markdown>
+						# Closing session
+					</section>
+					<section data-markdown data-background="https://media.giphy.com/media/M8cMCihoXLNIs/giphy.gif">
+						# Drupalcon 2016 in Dublin
+					</section>
+				</section>
+			</div>
+		</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
