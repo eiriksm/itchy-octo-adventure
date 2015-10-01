@@ -75,6 +75,29 @@
 
 						[By moshe weitzman, populist](https://events.drupal.org/barcelona2015/sessions/configuration-deployment-best-practices-drupal-8)
 					</section>
+					<section>
+						<p class="fragment">
+							Drupal 8 Config Managment (CM) is super awesome
+						</p>
+						<p class="fragment">
+							It let you keep site configuration under Git control
+						</p>
+						<p class="fragment" data-markdown>
+							...and is fully supported by Drush
+
+							````
+							drush config-export
+							drush config-import
+							````
+						</p>
+						<p class="fragment" data-markdown>
+							configuration changes to live? No problem:
+
+							````
+							drush config-merge @live
+							````
+						</p>
+					</section>
 					<section data-markdown>
 						# Symfony for Drupal developers
 
